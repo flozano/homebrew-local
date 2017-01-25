@@ -1,8 +1,9 @@
 class DynamodbLocal < Formula
   desc "Client-side database and server imitating DynamoDB"
   homepage "https://docs.aws.amazon.com/amazondynamodb/latest/developerguide/Tools.DynamoDBLocal.html"
-  url "https://dynamodb-local.s3.amazonaws.com/dynamodb_local_2016-05-17.tar.gz"
-  version "2016-05-17"
+#  url "https://dynamodb-local.s3.amazonaws.com/dynamodb_local_2016-05-17.tar.gz"
+  url "https://s3-us-west-2.amazonaws.com/dynamodb-local/dynamodb_local_latest.tar.gz"
+  version "2017-01-25"
   sha256 "832d474316c9d092de8c24885e69c9be9e22b9807e7383e0de6f247e44601a90"
 
   bottle :unneeded
