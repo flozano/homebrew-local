@@ -20,7 +20,7 @@ class DynamodbLocal < Formula
   end
 
   def install
-    prefix.install %w[LICENSE.txt README.txt third_party_licenses]
+    prefix.install %w[LICENSE.txt README.txt THIRD-PARTY-LICENSES.txt]
     libexec.install %w[DynamoDBLocal_lib DynamoDBLocal.jar]
     (bin/"dynamodb-local").write(bin_wrapper)
   end
